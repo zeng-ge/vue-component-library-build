@@ -1,0 +1,4 @@
+{
+  "button": "./components/Button/index.js",
+  "modal": "./components/Modal/index.js"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "vue-component-library-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": "true",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn workspace demo start"
+  },
+  "dependencies": {
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4"
+  }
+}
